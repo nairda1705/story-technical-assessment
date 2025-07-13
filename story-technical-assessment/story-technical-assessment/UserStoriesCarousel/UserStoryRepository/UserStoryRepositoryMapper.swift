@@ -9,7 +9,9 @@ struct UserStoryRepositoryMapper {
   }
 
   private func mapUserStory(from dto: UserStoryDTO) -> UserStoryDM {
-    let url = URL(string: dto.userProfilePictureURL)
+    let url: URL? = if let string = dto.userProfilePictureURL {
+      URL(string: string)
+    } else { nil }
     return UserStoryDM(
       userID: dto.userID,
       userName: dto.userName,

@@ -5,7 +5,7 @@ struct UserStoryDTO: Decodable {
 
   let userID: Int
   let userName: String
-  let userProfilePictureURL: String
+  let userProfilePictureURL: String?
 
   // MARK: - CODING KEYS
 
