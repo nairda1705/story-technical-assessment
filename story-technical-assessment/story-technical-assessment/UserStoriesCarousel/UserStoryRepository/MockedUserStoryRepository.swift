@@ -17,6 +17,7 @@ final class MockedUserStoryRepository: UserStoryRepository {
   // MARK: - PROTOCOL IMPLEMENTATION
 
   func fetchUserStoriesPage(page: Int) async throws(UserStoryError) -> UserStoriesPageDM {
+    try? await Task.sleep(nanoseconds: 500_000_000) // Simulate a network call
     if allPages == nil {
       try await loadJSON()
     }
