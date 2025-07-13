@@ -3,16 +3,189 @@
     {
       "page": {
         "stories": [
-          { "id": 1, "name": "Neo", "profile_picture_url": "https://i.pravatar.cc/300?u=1" },
-          { "id": 2, "name": "Trinity" },
-          { "id": 3, "name": "Morpheus", "profile_picture_url": "https://i.pravatar.cc/300?u=3" },
-          { "id": 4, "name": "Smith", "profile_picture_url": "https://i.pravatar.cc/300?u=4" },
-          { "id": 5, "name": "Oracle", "profile_picture_url": "https://i.pravatar.cc/300?u=5" },
-          { "id": 6, "name": "Cypher", "profile_picture_url": "https://i.pravatar.cc/300?u=6" },
-          { "id": 7, "name": "Niobe", "profile_picture_url": "https://i.pravatar.cc/300?u=7" },
-          { "id": 8, "name": "Dozer", "profile_picture_url": "https://i.pravatar.cc/300?u=8" },
-          { "id": 9, "name": "Switch" },
-          { "id": 10, "name": "Tank", "profile_picture_url": "https://i.pravatar.cc/300?u=10" }
+          {
+            "id": 1,
+            "name": "Neo",
+            "profile_picture_url": "https://i.pravatar.cc/300?u=1",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/neo1/400/700",
+                "duration": 3,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/neo2/400/700",
+                "duration": 6,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Trinity",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/trinity1/400/700",
+                "duration": 4,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/trinity2/400/700",
+                "duration": 5,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/trinity3/400/700",
+                "duration": 5,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Morpheus",
+            "profile_picture_url": "https://i.pravatar.cc/300?u=3",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/morpheus1/400/700",
+                "duration": 5,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/morpheus2/400/700",
+                "duration": 6,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Smith",
+            "profile_picture_url": "https://i.pravatar.cc/300?u=4",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/smith1/400/700",
+                "duration": 6,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/smith2/400/700",
+                "duration": 6,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/smith3/400/700",
+                "duration": 5,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "Oracle",
+            "profile_picture_url": "https://i.pravatar.cc/300?u=5",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/oracle1/400/700",
+                "duration": 5,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "name": "Cypher",
+            "profile_picture_url": "https://i.pravatar.cc/300?u=6",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/cypher1/400/700",
+                "duration": 5,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/cypher2/400/700",
+                "duration": 5,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/cypher3/400/700",
+                "duration": 5,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "name": "Niobe",
+            "profile_picture_url": "https://i.pravatar.cc/300?u=7",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/niobe1/400/700",
+                "duration": 5,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/niobe2/400/700",
+                "duration": 6,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/niobe3/400/700",
+                "duration": 6,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "name": "Dozer",
+            "profile_picture_url": "https://i.pravatar.cc/300?u=8",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/dozer1/400/700",
+                "duration": 5,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/dozer2/400/700",
+                "duration": 6,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "name": "Switch",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/switch1/400/700",
+                "duration": 3,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Tank",
+            "profile_picture_url": "https://i.pravatar.cc/300?u=10",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/tank1/400/700",
+                "duration": 6,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/tank2/400/700",
+                "duration": 5,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/tank3/400/700",
+                "duration": 6,
+                "seen": false
+              }
+            ]
+          }
         ],
         "page_number": 1,
         "is_last_page": false
@@ -21,16 +194,160 @@
     {
       "page": {
         "stories": [
-          { "id": 11, "name": "Seraph", "profile_picture_url": "https://i.pravatar.cc/300?u=11" },
-          { "id": 12, "name": "Sati", "profile_picture_url": "https://i.pravatar.cc/300?u=12" },
-          { "id": 13, "name": "Merovingian" },
-          { "id": 14, "name": "Persephone", "profile_picture_url": "https://i.pravatar.cc/300?u=14" },
-          { "id": 15, "name": "Ghost", "profile_picture_url": "https://i.pravatar.cc/300?u=15" },
-          { "id": 16, "name": "Lock", "profile_picture_url": "https://i.pravatar.cc/300?u=16" },
-          { "id": 17, "name": "Rama", "profile_picture_url": "https://i.pravatar.cc/300?u=17" },
-          { "id": 18, "name": "Bane", "profile_picture_url": "https://i.pravatar.cc/300?u=18" },
-          { "id": 19, "name": "The Keymaker", "profile_picture_url": "https://i.pravatar.cc/300?u=19" },
-          { "id": 20, "name": "Commander Thadeus", "profile_picture_url": "https://i.pravatar.cc/300?u=20" }
+          {
+            "id": 11,
+            "name": "Seraph",
+            "profile_picture_url": "https://i.pravatar.cc/300?u=11",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/seraph1/400/700",
+                "duration": 6,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/seraph2/400/700",
+                "duration": 3,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "name": "Sati",
+            "profile_picture_url": "https://i.pravatar.cc/300?u=12",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/sati1/400/700",
+                "duration": 3,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/sati2/400/700",
+                "duration": 5,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "name": "Merovingian",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/merovingian1/400/700",
+                "duration": 6,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "name": "Persephone",
+            "profile_picture_url": "https://i.pravatar.cc/300?u=14",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/persephone1/400/700",
+                "duration": 3,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "name": "Ghost",
+            "profile_picture_url": "https://i.pravatar.cc/300?u=15",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/ghost1/400/700",
+                "duration": 4,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/ghost2/400/700",
+                "duration": 3,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/ghost3/400/700",
+                "duration": 5,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "name": "Lock",
+            "profile_picture_url": "https://i.pravatar.cc/300?u=16",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/lock1/400/700",
+                "duration": 5,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/lock2/400/700",
+                "duration": 4,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/lock3/400/700",
+                "duration": 5,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "name": "Rama",
+            "profile_picture_url": "https://i.pravatar.cc/300?u=17",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/rama1/400/700",
+                "duration": 4,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "name": "Bane",
+            "profile_picture_url": "https://i.pravatar.cc/300?u=18",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/bane1/400/700",
+                "duration": 6,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "name": "The Keymaker",
+            "profile_picture_url": "https://i.pravatar.cc/300?u=19",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/thekeymaker1/400/700",
+                "duration": 6,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "name": "Commander Thadeus",
+            "profile_picture_url": "https://i.pravatar.cc/300?u=20",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/commanderthadeus1/400/700",
+                "duration": 6,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/commanderthadeus2/400/700",
+                "duration": 4,
+                "seen": false
+              }
+            ]
+          }
         ],
         "page_number": 2,
         "is_last_page": false
@@ -39,16 +356,170 @@
     {
       "page": {
         "stories": [
-          { "id": 21, "name": "Kid", "profile_picture_url": "https://i.pravatar.cc/300?u=21" },
-          { "id": 22, "name": "Zee", "profile_picture_url": "https://i.pravatar.cc/300?u=22" },
-          { "id": 23, "name": "Mifune", "profile_picture_url": "https://i.pravatar.cc/300?u=23" },
-          { "id": 24, "name": "Roland", "profile_picture_url": "https://i.pravatar.cc/300?u=24" },
-          { "id": 25, "name": "Cas", "profile_picture_url": "https://i.pravatar.cc/300?u=25" },
-          { "id": 26, "name": "Colt" },
-          { "id": 27, "name": "Vector", "profile_picture_url": "https://i.pravatar.cc/300?u=27" },
-          { "id": 28, "name": "Sequoia", "profile_picture_url": "https://i.pravatar.cc/300?u=28" },
-          { "id": 29, "name": "Sentinel", "profile_picture_url": "https://i.pravatar.cc/300?u=29" },
-          { "id": 30, "name": "Turing", "profile_picture_url": "https://i.pravatar.cc/300?u=30" }
+          {
+            "id": 21,
+            "name": "Kid",
+            "profile_picture_url": "https://i.pravatar.cc/300?u=21",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/kid1/400/700",
+                "duration": 6,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "name": "Zee",
+            "profile_picture_url": "https://i.pravatar.cc/300?u=22",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/zee1/400/700",
+                "duration": 5,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/zee2/400/700",
+                "duration": 3,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "name": "Mifune",
+            "profile_picture_url": "https://i.pravatar.cc/300?u=23",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/mifune1/400/700",
+                "duration": 3,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/mifune2/400/700",
+                "duration": 3,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/mifune3/400/700",
+                "duration": 3,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "name": "Roland",
+            "profile_picture_url": "https://i.pravatar.cc/300?u=24",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/roland1/400/700",
+                "duration": 6,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/roland2/400/700",
+                "duration": 6,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "name": "Cas",
+            "profile_picture_url": "https://i.pravatar.cc/300?u=25",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/cas1/400/700",
+                "duration": 5,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "name": "Colt",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/colt1/400/700",
+                "duration": 6,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/colt2/400/700",
+                "duration": 5,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/colt3/400/700",
+                "duration": 6,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "name": "Vector",
+            "profile_picture_url": "https://i.pravatar.cc/300?u=27",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/vector1/400/700",
+                "duration": 6,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "name": "Sequoia",
+            "profile_picture_url": "https://i.pravatar.cc/300?u=28",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/sequoia1/400/700",
+                "duration": 3,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/sequoia2/400/700",
+                "duration": 3,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "name": "Sentinel",
+            "profile_picture_url": "https://i.pravatar.cc/300?u=29",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/sentinel1/400/700",
+                "duration": 6,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/sentinel2/400/700",
+                "duration": 4,
+                "seen": false
+              },
+              {
+                "image_url": "https://picsum.photos/seed/sentinel3/400/700",
+                "duration": 4,
+                "seen": false
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "name": "Turing",
+            "profile_picture_url": "https://i.pravatar.cc/300?u=30",
+            "content": [
+              {
+                "image_url": "https://picsum.photos/seed/turing1/400/700",
+                "duration": 5,
+                "seen": false
+              }
+            ]
+          }
         ],
         "page_number": 3,
         "is_last_page": true

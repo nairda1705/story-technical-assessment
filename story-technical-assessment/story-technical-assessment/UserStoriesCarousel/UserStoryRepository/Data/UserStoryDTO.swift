@@ -6,6 +6,7 @@ struct UserStoryDTO: Decodable {
   let userID: Int
   let userName: String
   let userProfilePictureURL: String?
+  let content: [UserStoryContentDTO]
 
   // MARK: - CODING KEYS
 
@@ -13,5 +14,6 @@ struct UserStoryDTO: Decodable {
     case userID = "id"
     case userName = "name"
     case userProfilePictureURL = "profile_picture_url"
+    case content
   }
 }

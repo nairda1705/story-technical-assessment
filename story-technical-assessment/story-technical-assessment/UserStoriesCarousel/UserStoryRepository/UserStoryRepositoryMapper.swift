@@ -15,7 +15,17 @@ struct UserStoryRepositoryMapper {
     return UserStoryDM(
       userID: dto.userID,
       userName: dto.userName,
-      userProfilePictureURL: url
+      userProfilePictureURL: url,
+      content: dto.content.compactMap(mapUserStoryContent)
+    )
+  }
+
+  private func mapUserStoryContent(from dto: UserStoryContentDTO) -> UserStoryContentDM? {
+    guard let url = URL(string: dto.imageURL) else { return nil }
+    return UserStoryContentDM(
+      seen: dto.seen,
+      duration: dto.duration,
+      imageURL: url
     )
   }
 }
