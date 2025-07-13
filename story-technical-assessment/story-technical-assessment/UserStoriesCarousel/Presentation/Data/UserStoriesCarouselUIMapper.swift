@@ -6,8 +6,17 @@ struct UserStoriesCarouselUIMapper {
       UserStoryUIModel(
         userID: userStory.userID,
         userName: userStory.userName,
-        profilePictureURL: userStory.userProfilePictureURL
+        profilePictureURL: userStory.userProfilePictureURL,
+        content: userStory.content.map(mapUserStoriesContent)
       )
     }
+  }
+
+  private func mapUserStoriesContent(from userStoryContent: UserStoryContentDM) -> UserStoryUIModel.Content {
+    UserStoryUIModel.Content(
+      seen: userStoryContent.seen,
+      imageURL: userStoryContent.imageURL,
+      duration: userStoryContent.duration
+    )
   }
 }

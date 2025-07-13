@@ -5,6 +5,18 @@ struct UserStoriesCarouselView: View {
 
   @StateObject private var viewModel = UserStoriesCarouselViewModel(repository: MockedUserStoryRepository())
 
+  @Namespace private var animation
+
+  @State private var selectedStory: UserStoryUIModel?
+
+  private var fullscreenBinding: Binding<Bool> {
+    Binding(get: {
+      selectedStory != nil
+    }, set: { isFullscreen in
+      if !isFullscreen { selectedStory = nil }
+    })
+  }
+
   // MARK: - VIEWS
 
   var body: some View {
@@ -20,23 +32,37 @@ struct UserStoriesCarouselView: View {
         .frame(height: 16.0)
         .frame(maxWidth: .infinity, alignment: .center)
     } else {
-      ScrollView(.horizontal) {
-        LazyHStack(spacing: 16.0) {
-          ForEach(viewModel.model.stories) { storyModel in
-            let isLastStory = storyModel == viewModel.model.stories.last
-            UserStoryCircleView(model: storyModel)
-              .onAppear {
-                if isLastStory { viewModel.handleOnLastStoryAppear() }
-              }
+      ScrollViewReader { proxy in
+        ScrollView(.horizontal) {
+          LazyHStack(spacing: 16.0) {
+            ForEach(viewModel.model.stories) { storyModel in
+              let isLastStory = storyModel == viewModel.model.stories.last
+              UserStoryCircleView(model: storyModel)
+                .onAppear {
+                  if isLastStory { viewModel.handleOnLastStoryAppear() }
+                }
+                .onTapGesture { selectedStory = storyModel }
+                .id(storyModel.id)
+                .matchedTransitionSource(id: storyModel.id, in: animation)
+            }
+            if viewModel.model.isFetchingNextPage {
+              LoadingSpinnerView()
+                .frame(height: 16.0)
+            }
           }
-          if viewModel.model.isFetchingNextPage {
-            LoadingSpinnerView()
-              .frame(height: 16.0)
-          }
+          .padding(.horizontal, 16.0)
         }
-        .padding(.horizontal, 16.0)
+        .scrollIndicators(.never)
+        .scrollClipDisabled()
+        .onChange(of: selectedStory) {
+          if let selectedStory { proxy.scrollTo(selectedStory.id) }
+        }
+        .sheet(isPresented: fullscreenBinding) {
+          let viewModel = viewModel.makeUserStoriesFullscreenViewModel(with: selectedStory)
+          UserStoriesFullscreenView(viewModel: viewModel, selectedStory: $selectedStory)
+            .navigationTransition(.zoom(sourceID: selectedStory?.userID, in: animation))
+        }
       }
-      .scrollIndicators(.never)
     }
   }
 }

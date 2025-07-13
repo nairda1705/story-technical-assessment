@@ -32,6 +32,14 @@ class UserStoriesCarouselViewModel: ObservableObject {
     initiateNextPageFetch()
   }
 
+  func makeUserStoriesFullscreenViewModel(with selectedStory: UserStoryUIModel?) -> UserStoriesFullscreenViewModel {
+    UserStoriesFullscreenViewModel(
+      repository: repository,
+      models: model.stories,
+      selectedStory: selectedStory
+    )
+  }
+
   // MARK: - PRIVATE METHODS
 
   private func initiateNextPageFetch() {
