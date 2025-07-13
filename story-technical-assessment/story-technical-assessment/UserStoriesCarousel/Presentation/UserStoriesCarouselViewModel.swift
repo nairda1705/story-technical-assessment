@@ -19,6 +19,7 @@ class UserStoriesCarouselViewModel: ObservableObject {
 
   init(repository: UserStoryRepository) {
     self.repository = repository
+    setupObservables()
   }
 
   // MARK: - PUBLIC PROPERTIES
@@ -41,6 +42,18 @@ class UserStoriesCarouselViewModel: ObservableObject {
   }
 
   // MARK: - PRIVATE METHODS
+
+  private func setupObservables() {
+    repository.eventPublisher.sink { event in
+      switch event {
+      case let .markedAsSeen(userStoryContentDM):
+        break // TODO: HANDLE
+      case let .likeToggled(userStoryContentDM):
+        break // TODO: HANDLE
+      }
+    }
+    .store(in: &subscriptions)
+  }
 
   private func initiateNextPageFetch() {
     let isLastPage = presentationData.pages.last?.isLastPage ?? false

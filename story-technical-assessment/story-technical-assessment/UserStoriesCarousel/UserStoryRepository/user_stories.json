@@ -9,14 +9,18 @@
             "profile_picture_url": "https://i.pravatar.cc/300?u=1",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/neo1/400/700",
                 "duration": 3,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 2,
                 "image_url": "https://picsum.photos/seed/neo2/400/700",
                 "duration": 6,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -25,19 +29,25 @@
             "name": "Trinity",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/trinity1/400/700",
                 "duration": 4,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 2,
                 "image_url": "https://picsum.photos/seed/trinity2/400/700",
                 "duration": 5,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 3,
                 "image_url": "https://picsum.photos/seed/trinity3/400/700",
                 "duration": 5,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -47,14 +57,18 @@
             "profile_picture_url": "https://i.pravatar.cc/300?u=3",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/morpheus1/400/700",
                 "duration": 5,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 2,
                 "image_url": "https://picsum.photos/seed/morpheus2/400/700",
                 "duration": 6,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -64,19 +78,25 @@
             "profile_picture_url": "https://i.pravatar.cc/300?u=4",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/smith1/400/700",
                 "duration": 6,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 2,
                 "image_url": "https://picsum.photos/seed/smith2/400/700",
                 "duration": 6,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 3,
                 "image_url": "https://picsum.photos/seed/smith3/400/700",
                 "duration": 5,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -86,9 +106,11 @@
             "profile_picture_url": "https://i.pravatar.cc/300?u=5",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/oracle1/400/700",
                 "duration": 5,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -98,19 +120,25 @@
             "profile_picture_url": "https://i.pravatar.cc/300?u=6",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/cypher1/400/700",
                 "duration": 5,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 2,
                 "image_url": "https://picsum.photos/seed/cypher2/400/700",
                 "duration": 5,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 3,
                 "image_url": "https://picsum.photos/seed/cypher3/400/700",
                 "duration": 5,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -120,19 +148,25 @@
             "profile_picture_url": "https://i.pravatar.cc/300?u=7",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/niobe1/400/700",
                 "duration": 5,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 2,
                 "image_url": "https://picsum.photos/seed/niobe2/400/700",
                 "duration": 6,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 3,
                 "image_url": "https://picsum.photos/seed/niobe3/400/700",
                 "duration": 6,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -142,14 +176,18 @@
             "profile_picture_url": "https://i.pravatar.cc/300?u=8",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/dozer1/400/700",
                 "duration": 5,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 2,
                 "image_url": "https://picsum.photos/seed/dozer2/400/700",
                 "duration": 6,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -158,9 +196,11 @@
             "name": "Switch",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/switch1/400/700",
                 "duration": 3,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -170,19 +210,25 @@
             "profile_picture_url": "https://i.pravatar.cc/300?u=10",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/tank1/400/700",
                 "duration": 6,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 2,
                 "image_url": "https://picsum.photos/seed/tank2/400/700",
                 "duration": 5,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 3,
                 "image_url": "https://picsum.photos/seed/tank3/400/700",
                 "duration": 6,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           }
@@ -200,14 +246,18 @@
             "profile_picture_url": "https://i.pravatar.cc/300?u=11",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/seraph1/400/700",
                 "duration": 6,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 2,
                 "image_url": "https://picsum.photos/seed/seraph2/400/700",
                 "duration": 3,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -217,14 +267,18 @@
             "profile_picture_url": "https://i.pravatar.cc/300?u=12",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/sati1/400/700",
                 "duration": 3,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 2,
                 "image_url": "https://picsum.photos/seed/sati2/400/700",
                 "duration": 5,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -233,9 +287,11 @@
             "name": "Merovingian",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/merovingian1/400/700",
                 "duration": 6,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -245,9 +301,11 @@
             "profile_picture_url": "https://i.pravatar.cc/300?u=14",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/persephone1/400/700",
                 "duration": 3,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -257,19 +315,25 @@
             "profile_picture_url": "https://i.pravatar.cc/300?u=15",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/ghost1/400/700",
                 "duration": 4,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 2,
                 "image_url": "https://picsum.photos/seed/ghost2/400/700",
                 "duration": 3,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 3,
                 "image_url": "https://picsum.photos/seed/ghost3/400/700",
                 "duration": 5,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -279,19 +343,25 @@
             "profile_picture_url": "https://i.pravatar.cc/300?u=16",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/lock1/400/700",
                 "duration": 5,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 2,
                 "image_url": "https://picsum.photos/seed/lock2/400/700",
                 "duration": 4,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 3,
                 "image_url": "https://picsum.photos/seed/lock3/400/700",
                 "duration": 5,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -301,9 +371,11 @@
             "profile_picture_url": "https://i.pravatar.cc/300?u=17",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/rama1/400/700",
                 "duration": 4,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -313,9 +385,11 @@
             "profile_picture_url": "https://i.pravatar.cc/300?u=18",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/bane1/400/700",
                 "duration": 6,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -325,9 +399,11 @@
             "profile_picture_url": "https://i.pravatar.cc/300?u=19",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/thekeymaker1/400/700",
                 "duration": 6,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -337,14 +413,18 @@
             "profile_picture_url": "https://i.pravatar.cc/300?u=20",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/commanderthadeus1/400/700",
                 "duration": 6,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 2,
                 "image_url": "https://picsum.photos/seed/commanderthadeus2/400/700",
                 "duration": 4,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           }
@@ -362,9 +442,11 @@
             "profile_picture_url": "https://i.pravatar.cc/300?u=21",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/kid1/400/700",
                 "duration": 6,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -374,14 +456,18 @@
             "profile_picture_url": "https://i.pravatar.cc/300?u=22",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/zee1/400/700",
                 "duration": 5,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 2,
                 "image_url": "https://picsum.photos/seed/zee2/400/700",
                 "duration": 3,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -391,19 +477,25 @@
             "profile_picture_url": "https://i.pravatar.cc/300?u=23",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/mifune1/400/700",
                 "duration": 3,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 2,
                 "image_url": "https://picsum.photos/seed/mifune2/400/700",
                 "duration": 3,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 3,
                 "image_url": "https://picsum.photos/seed/mifune3/400/700",
                 "duration": 3,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -413,14 +505,18 @@
             "profile_picture_url": "https://i.pravatar.cc/300?u=24",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/roland1/400/700",
                 "duration": 6,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 2,
                 "image_url": "https://picsum.photos/seed/roland2/400/700",
                 "duration": 6,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -430,9 +526,11 @@
             "profile_picture_url": "https://i.pravatar.cc/300?u=25",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/cas1/400/700",
                 "duration": 5,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -441,19 +539,25 @@
             "name": "Colt",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/colt1/400/700",
                 "duration": 6,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 2,
                 "image_url": "https://picsum.photos/seed/colt2/400/700",
                 "duration": 5,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 3,
                 "image_url": "https://picsum.photos/seed/colt3/400/700",
                 "duration": 6,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -463,9 +567,11 @@
             "profile_picture_url": "https://i.pravatar.cc/300?u=27",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/vector1/400/700",
                 "duration": 6,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -475,14 +581,18 @@
             "profile_picture_url": "https://i.pravatar.cc/300?u=28",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/sequoia1/400/700",
                 "duration": 3,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 2,
                 "image_url": "https://picsum.photos/seed/sequoia2/400/700",
                 "duration": 3,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -492,19 +602,25 @@
             "profile_picture_url": "https://i.pravatar.cc/300?u=29",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/sentinel1/400/700",
                 "duration": 6,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 2,
                 "image_url": "https://picsum.photos/seed/sentinel2/400/700",
                 "duration": 4,
-                "seen": false
+                "seen": false,
+                "liked": false
               },
               {
+                "id": 3,
                 "image_url": "https://picsum.photos/seed/sentinel3/400/700",
                 "duration": 4,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           },
@@ -514,9 +630,11 @@
             "profile_picture_url": "https://i.pravatar.cc/300?u=30",
             "content": [
               {
+                "id": 1,
                 "image_url": "https://picsum.photos/seed/turing1/400/700",
                 "duration": 5,
-                "seen": false
+                "seen": false,
+                "liked": false
               }
             ]
           }

@@ -4,6 +4,7 @@ struct UserStoryUIModel: Identifiable, Hashable {
   // MARK: - NESTED TYPES
 
   struct Content: Hashable {
+    let id: Int
     let seen: Bool
     let imageURL: URL
     let duration: Int

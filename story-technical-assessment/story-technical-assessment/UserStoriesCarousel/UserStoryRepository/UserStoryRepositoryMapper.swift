@@ -20,9 +20,10 @@ struct UserStoryRepositoryMapper {
     )
   }
 
-  private func mapUserStoryContent(from dto: UserStoryContentDTO) -> UserStoryContentDM? {
+  func mapUserStoryContent(from dto: UserStoryContentDTO) -> UserStoryContentDM? {
     guard let url = URL(string: dto.imageURL) else { return nil }
     return UserStoryContentDM(
+      id: dto.id,
       seen: dto.seen,
       duration: dto.duration,
       imageURL: url

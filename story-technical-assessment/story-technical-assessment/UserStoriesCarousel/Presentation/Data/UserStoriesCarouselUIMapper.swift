@@ -14,6 +14,7 @@ struct UserStoriesCarouselUIMapper {
 
   private func mapUserStoriesContent(from userStoryContent: UserStoryContentDM) -> UserStoryUIModel.Content {
     UserStoryUIModel.Content(
+      id: userStoryContent.id,
       seen: userStoryContent.seen,
       imageURL: userStoryContent.imageURL,
       duration: userStoryContent.duration
