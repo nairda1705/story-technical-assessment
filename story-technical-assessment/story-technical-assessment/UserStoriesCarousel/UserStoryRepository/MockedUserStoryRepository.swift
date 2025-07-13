@@ -61,7 +61,7 @@ final class MockedUserStoryRepository: UserStoryRepository {
       .content
       .first { $0.id == storyID }
     let likeToggledStoryContent = storyContent?.copy {
-      $0.liked = $0.liked.toggle()
+      $0.liked.toggle()
     }
     guard
       let likeToggledStoryContent,
