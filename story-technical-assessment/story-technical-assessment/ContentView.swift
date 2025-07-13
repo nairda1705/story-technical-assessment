@@ -8,17 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+  var body: some View {
+    VStack {
+      Image(systemName: "globe")
+        .imageScale(.large)
+        .foregroundStyle(.tint)
+      Text("Hello, world!")
     }
+    .padding()
+    .onAppear {
+      Task {
+        let page = try? await MockedUserStoryRepository().fetchUserStoriesPage(page: 1)
+        print(page)
+      }
+    }
+  }
 }
 
 #Preview {
-    ContentView()
+  ContentView()
 }
